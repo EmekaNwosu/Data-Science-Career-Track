@@ -1,0 +1,30 @@
+﻿Model
+model: Logistic Regression
+solver: liblinear
+max_iter: 100
+C: 0.8
+random_state: 610
+
+
+Feature Importances (manually calculated)
+* reb: 2.140386
+* fg3a: 1.857496
+* fg2a: 1.484649
+* fg2_pct: 1.303869
+* to: 1.197492
+* fg3_pct: 1.195557
+* stl: 1.029783
+* ft_pct: 0.441442
+* ast: 0.436797
+* blk: 0.281112
+* fta: 0.253163
+* pf: 0.218337
+
+
+Performance Metrics
+* Train Set CV Mean: 0.8333
+* Train Set CV std: 0.0061
+* Test Set Accuracy: 0.8315
+* Test Set Precision: 0.8332
+* Test Set Recall: 0.8306
+* Test Set F1 Score: 0.8319
