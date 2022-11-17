@@ -1,0 +1,35 @@
+﻿Model
+model: Random Forest
+n_estimators: 500
+criterion: gini
+max_depth: 20
+bootstrap: False
+random_state: 610
+
+
+Feature Importances (manually calculated)
+* account_length: 0.041
+* area_code_East_Bay: 0.006
+* area_code_San_Francisco: 0.007
+* area_code_San_Jose: 0.006
+* international_plan: 0.100
+* voice_mail_plan: 0.015
+* number_vmail_messages: 0.024
+* total_day_minutes: 0.252
+* total_day_calls: 0.042
+* total_eve_minutes: 0.100
+* total_eve_calls: 0.037
+* total_night_minutes: 0.057
+* total_night_calls: 0.040
+* total_intl_minutes: 0.081
+* total_intl_calls: 0.068
+* customer_service_calls: 0.124
+
+
+Performance Metrics
+* Train Set CV Mean: 0.952
+* Train Set CV std: 0.0131
+* Test Set Accuracy: 0.9535
+* Test Set Precision: 0.7263
+* Test Set Recall: 0.9324
+* Test Set F1 Score: 0.8166
